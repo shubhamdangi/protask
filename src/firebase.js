@@ -23,12 +23,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: os.environ.get("API_KEY"),
+  apiKey: process.environ.get("API_KEY"),
   authDomain: "my-protask.firebaseapp.com",
   projectId: "my-protask",
-  storageBucket: os.environ.get("STORAGE_BUCKET"),
-  messagingSenderId: os.environ.get("MSG_ID"),
-  appId: os.environ.get("APP_ID"),
+  storageBucket: process.environ.get("STORAGE_BUCKET"),
+  messagingSenderId: process.environ.get("MSG_ID"),
+  appId: process.environ.get("APP_ID"),
 };
 // Initialize Firebase and Firestore
 const app = initializeApp(firebaseConfig);
