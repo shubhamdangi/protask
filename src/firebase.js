@@ -19,8 +19,6 @@ import {
   addDoc,
 } from "firebase/firestore";
 
-//  Firebase configuration
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.environ.get("API_KEY"),
@@ -30,6 +28,7 @@ const firebaseConfig = {
   messagingSenderId: process.environ.get("MSG_ID"),
   appId: process.environ.get("APP_ID"),
 };
+
 // Initialize Firebase and Firestore
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
