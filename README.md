@@ -19,9 +19,15 @@
   - Forgot password feature allowing users to reset their password via a password reset link sent to their email.
   - Full CRUD Functionality.
 
-
-
 <br>
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/51415346/153380751-4cea4b11-fd3d-4864-b8b9-52e47e8a00ee.png">
+</p>
+  <br>
+
+
+
 
 
 # Tech Stack
