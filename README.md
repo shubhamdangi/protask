@@ -34,7 +34,6 @@
 Additional NPM Libraries:
 
   - react-router-dom
-  - react-router-bootstrap
   - @material-ui/icons
   - @material-ui/core
 
