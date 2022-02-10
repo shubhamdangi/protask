@@ -8,8 +8,7 @@
   <div align="center">
 
 
-<h2> Add tasks to your list with deadlines
-</h2>
+
 </div>
 <br>
 
